@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <title>SteelApp Traffic Manager</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/vendor.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/app.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/jquery-ui.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/kendo/kendo.common.min.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/kendo/kendo.dataviz.default.min.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/kendo/kendo.dataviz.min.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/kendo/kendo.default.min.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/kendo/kendo.silver.min.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/jqx/jqx.base.css') %>' />
+      <link rel='stylesheet' type='text/css' href='<%- @buster('/assets/bootstrap.css') %>' />
+      <%- content 'head' %>
+   </head>
+   <body>
+    <% content %>
+    <script type='text/javascript' src='<%- @buster('assets/js/jquery.min.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jquery-ui.min.js') %>'></script>
+    <script type="text/javascript" src='<%- @buster('assets/js/jquery.resize.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/kendo.all.min.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxcore.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxtabs.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxdata.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxbuttons.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxscrollbar.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxdatatable.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqx-demos.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxtreegrid.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('assets/js/jqxnavigationbar.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('/assets/vendor.js') %>'></script>
+    <script type='text/javascript' src='<%- @buster('/assets/app.js') %>'></script>
+    <%- content 'scripts' %>
+   </body>
+</html>
